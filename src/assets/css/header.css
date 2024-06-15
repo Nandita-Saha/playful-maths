@@ -1,0 +1,34 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    padding: 18px;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.header .logo {
+    width: 197px;
+    display: inline-block;
+}
+.audiobox{
+    height: 54px;
+    width: 54px;
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.audiobox > img{
+ width: 25px;
+ height: 25px;
+}
+
+.audiobox:hover{
+    cursor: pointer;
+    background-color: #5c5c5c8a;
+}

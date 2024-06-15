@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Copernicus Trial';
+    src: url('../src/assets/fonts/copernicustrial-semibold-bf66160451692c7-webfont.woff2') format('woff2'),
+        url('../src/assets/fonts/copernicustrial-semibold-bf66160451692c7-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+   
+
+}
+
+@font-face {
+    font-family: 'Copernicus Trial';
+    src: url('../src/assets/fonts/copernicustrial-medium-bf66160450d988d-webfont.woff2') format('woff2'),
+        url('../src/assets/fonts/copernicustrial-medium-bf66160450d988d-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}

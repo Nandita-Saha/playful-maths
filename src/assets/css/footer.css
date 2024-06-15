@@ -1,0 +1,16 @@
+
+.footer {
+    padding: 18px;
+    margin-top: 6rem;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer p span {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
